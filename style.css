@@ -1,0 +1,68 @@
+p{
+    font-size: 20px;
+    color: black;
+}
+#Glass-Div{
+    width: fit-content;
+}
+/*#Title-Div{
+    text-align: center;
+    align-content: space-around;
+    width:fit-content;
+    background-color: aqua;
+}
+ #Title{
+    font-size: large;
+    font-family:   'Times New Roman', Times, serif;
+    font-weight: bolder;
+    align-items: center;
+} */
+#MagnifgyClass{
+    width: 20%;
+    padding-left: 50%;
+    background-color: beige;
+    padding-right: 50%;
+}
+#Page-Title{
+    background-color: aquamarine;
+}
+h1{
+   padding-left: 50%;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: initial;
+   font-variant:small-caps;
+   font-display: auto;
+}
+#Meter-Div{
+    background-color: yellow;
+    width: 100%;
+}
+.Meter{
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+}
+/*
+.Span-Left{
+    float: left;
+    padding-right: 10%; 
+}
+
+.Span-Right{
+    float: right;
+    padding-left: 10%; 
+}
+*/
+#Logo{
+    width: 10%;
+    padding-left: 50%;
+}
+/*
+.Logo-Left{
+}
+.Logo-Right{
+}
+#SecondDiv{
+    background-color: aquamarine;
+}
+*/

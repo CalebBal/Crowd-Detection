@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-wrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+}
+
+.data-wrapper {
+    padding: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

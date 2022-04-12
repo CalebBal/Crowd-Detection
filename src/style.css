@@ -3,7 +3,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 20px;
-}
+    }
 
 .title-wrapper {
     display: flex;
@@ -21,8 +21,16 @@ body {
 }
 
 .data-wrapper {
-    padding: 60px;
+    padding: 2.5vw;
+   /* margin-left: 32.5vw; */
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+
+}
+
+.plot-wrapper{
+    width: 45vw;
+    height: 55vh;
 }

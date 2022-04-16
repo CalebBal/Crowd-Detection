@@ -34,7 +34,7 @@ const unsubscribe = onSnapshot(q, (querySnap) => {
 
     const labels = data.map((room) => room.roomName);
     const count = data.map((room) => room.count);
-
+    console.log(data);
     // remove the previous data in the chart
     removeData(barChart);
     // updates the chart with the new data

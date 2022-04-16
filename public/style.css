@@ -21,8 +21,9 @@ body {
 }
 
 .data-wrapper {
-    padding: 60px;
-    margin-top: 20px;
     display: flex;
     justify-content: center;
+    padding: 60px;
+    max-width: 50%;
+    margin-top: 20px;
 }

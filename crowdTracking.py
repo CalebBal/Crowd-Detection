@@ -10,7 +10,6 @@ from urllib.request import urlopen
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
-# In[3]:
 def detector(image):
    image = imutils.resize(image, width=min(400, image.shape[1]))
    clone = image.copy()
@@ -52,9 +51,9 @@ def saveToDataBase(result):
     x = requests.post(url, data=myobj)
     print(x.text)
 
-# In[7]:
+
 def main():
    record()
-# In[8]:
+
 if __name__ == '__main__':
    main()
